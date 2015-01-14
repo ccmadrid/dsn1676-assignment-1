@@ -41,23 +41,22 @@ body {
 	background-color: #E7E5D9;
 	margin: 0 auto;
 	background-image: url("../images/logo.svg"), url("../images/logo.svg");
-	background-position: left center, right center;
+	background-position: left 1em center, right 1em center;
 	background-repeat: no-repeat;
 	background-size: 50px 50px, 50px 50px;
-	font-family: sans-serif;
 }
 
 .content {
 	text-align: center;
 	background-color: #87714F;
+	background-image: url("../images/hat.svg"), url("../images/cuffs.svg");
+	background-position: top 1em center, bottom 1em center;
+	background-repeat: no-repeat;
+	background-size: 75px 75px, 75px 75px;
+	padding: 8em 2em;
 }
 
 .heading {
-	font-family: sans-serif;
-}
-
-.sans-serif {
-	font-family: sans-serif;
 }
 
 .white-text {
@@ -66,4 +65,9 @@ body {
 
 .crimes{
 	text-align: left;
+}
+
+.portrait {
+	display: block;
+	margin: 0 auto;
 }
