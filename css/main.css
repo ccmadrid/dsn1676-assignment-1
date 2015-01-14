@@ -18,3 +18,11 @@ html {
   box-sizing: inherit;
 }
 
+.masthead {
+	background: transparent url("../images/masthead-bg.png") repeat left center;
+}
+
+.title {
+	display: inline-block;
+	background-color: #fff;
+}
