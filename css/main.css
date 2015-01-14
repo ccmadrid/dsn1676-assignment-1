@@ -48,5 +48,18 @@ body {
 }
 
 .content {
-	background-color: #E7E5D9;
+	text-align: center;
+	background-color: #87714F;
+}
+
+.heading {
+	font-family: sans-serif;
+}
+
+.white-text {
+	color: #FFF;
+}
+
+.crimes{
+	text-align: left;
 }
