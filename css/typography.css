@@ -36,6 +36,7 @@ fieldset, pre, table {
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .zetta {
@@ -46,13 +47,12 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  font-family: sans-serif;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
-  font-family: sans-serif;
+  font-family: 'Abril Fatface', cursive;
 }
 
 h3, .tera {

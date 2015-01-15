@@ -71,3 +71,7 @@ body {
 	border-image:  url("../images/panel-border.png") 22 22 22 22 stretch stretch;
 	border-width: 22px 22px 22px 22px;
 }
+
+.abril {
+	font-family: 'Abril Fatface', cursive;
+}
