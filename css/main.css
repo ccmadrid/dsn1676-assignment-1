@@ -70,4 +70,6 @@ body {
 .portrait {
 	display: block;
 	margin: 0 auto;
+	border-image:  url("../images/panel-border.png") 22 22 22 22 stretch stretch;
+	border-width: 22px 22px 22px 22px;
 }
