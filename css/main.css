@@ -24,22 +24,21 @@ body {
 }
 
 .masthead {
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
 	height: 3.5em;
-	overflow: hidden;
 	background: transparent url("../images/masthead-bg.png") repeat left center;
 	text-align: center;
 }
 
 .title {
 	display: inline-block;
-	margin: 0;
+	overflow: hidden;
+	margin: 0 auto;
 	width: 8em;
 	height: 1.75em;
-	overflow: hidden;
 	background-color: #E7E5D9;
-	margin: 0 auto;
 	background-image: url("../images/logo.svg"), url("../images/logo.svg");
 	background-position: top left 0.5em, top right 0.5em;
 	background-repeat: no-repeat;
@@ -48,17 +47,14 @@ body {
 }
 
 .content {
-	text-align: center;
+	margin: 1.5em 0 0 0;
+	padding: 8em 2em 6em;
 	background-color: #87714F;
 	background-image: url("../images/hat.svg"), url("../images/cuffs.svg");
 	background-position: top 1em center, bottom 1em center;
 	background-repeat: no-repeat;
 	background-size: 85px 85px, 50px 50px;
-	padding: 8em 2em 6em;
-	margin: 1.5em 0 0 0;
-}
-
-.heading {
+	text-align: center;
 }
 
 .white-text {
@@ -70,9 +66,9 @@ body {
 }
 
 .portrait {
-	width: 100%;
 	display: block;
 	margin: 0 auto;
+	width: 100%;
 	border-image:  url("../images/panel-border.png") 22 22 22 22 stretch stretch;
 	border-width: 22px 22px 22px 22px;
 }
